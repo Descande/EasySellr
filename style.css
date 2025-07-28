@@ -125,20 +125,20 @@ body {
 
 
 /** ========== Products Grid =========**/
-.products-grid {
+.product-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 30px;
 }
 
-.products-card {
+.product-card {
     background-color: #fff;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     transition: transform 0.3s ease;
 }
 
-.products-card {
+.product-card {
     transform: translateY(-5px);
 }
 
